@@ -2,7 +2,7 @@
 
 A comprehensive ASP.NET Core MVC application for managing employees and departments with user authentication and authorization features.
 
-## 🚀 Features
+## Features
 
 - **Employee Management**: Complete CRUD operations for employee records
 - **Department Management**: Full department lifecycle management
@@ -12,7 +12,7 @@ A comprehensive ASP.NET Core MVC application for managing employees and departme
 - **Email Services**: Email configuration and sending capabilities
 - **Responsive Design**: Modern, mobile-friendly user interface
 
-## 🏗️ Architecture
+## Architecture
 
 This project follows the **Clean Architecture** pattern with clear separation of concerns:
 
@@ -33,7 +33,7 @@ This project follows the **Clean Architecture** pattern with clear separation of
 - **Bootstrap** - Frontend CSS framework
 - **jQuery** - JavaScript library
 
-## 📋 Prerequisites
+## Prerequisites
 
 Before running this application, ensure you have the following installed:
 
@@ -41,7 +41,7 @@ Before running this application, ensure you have the following installed:
 - [SQL Server](https://www.microsoft.com/en-us/sql-server/sql-server-downloads) (LocalDB or Full SQL Server)
 - [Visual Studio 2022](https://visualstudio.microsoft.com/downloads/) or [Visual Studio Code](https://code.visualstudio.com/)
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Clone the Repository
 
@@ -83,7 +83,7 @@ dotnet run
 
 The application will be available at `https://localhost:5001` or `http://localhost:5000`.
 
-## 📁 Project Structure
+## Project Structure
 
 ### Presentation Layer (Demo.PL)
 - **Controllers**: Handle HTTP requests and responses
@@ -102,7 +102,7 @@ The application will be available at `https://localhost:5001` or `http://localho
 - **DbContext**: Entity Framework database context
 - **Migrations**: Database schema versioning
 
-## 🔧 Configuration
+## Configuration
 
 ### Database Configuration
 The application uses Entity Framework Core with SQL Server. Connection strings are configured in `appsettings.json`.
@@ -118,7 +118,7 @@ User authentication is configured with the following password requirements:
 ### Email Configuration
 Email settings can be configured through the `IEmailSetting` service for sending notifications and password reset emails.
 
-## 🎯 Key Features Implementation
+## Key Features Implementation
 
 ### Employee Management
 - Create, read, update, and delete employee records
@@ -136,7 +136,7 @@ Email settings can be configured through the `IEmailSetting` service for sending
 - Password reset functionality
 - Role-based access control
 
-## 🧪 Testing
+## Testing
 
 To run tests (if available):
 
@@ -144,7 +144,7 @@ To run tests (if available):
 dotnet test
 ```
 
-## 📦 Dependencies
+## Dependencies
 
 ### NuGet Packages
 - **Microsoft.AspNetCore.Identity.EntityFrameworkCore** (8.0.14)
@@ -154,7 +154,7 @@ dotnet test
 - **AutoMapper** (14.0.0)
 - **Microsoft.VisualStudio.Web.CodeGeneration.Design** (8.0.7)
 
-## 🚀 Deployment
+## Deployment
 
 ### Development
 The application is configured for development with detailed error pages and hot reload support.
@@ -168,7 +168,7 @@ For production deployment:
 4. Configure email services
 5. Set up database backups
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
@@ -176,22 +176,22 @@ For production deployment:
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📝 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 👥 Authors
+## Authors
 
 - **Badr El-Deen Younis** - [GitHub](https://github.com/BadrYounis)
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - ASP.NET Core team for the excellent framework
 - Entity Framework team for the robust ORM
 - Bootstrap team for the responsive CSS framework
 - All contributors and open source libraries used in this project
 
-## 📞 Support
+## Support
 
 If you have any questions or need help with this project, please:
 
@@ -201,4 +201,4 @@ If you have any questions or need help with this project, please:
 
 ---
 
-**Happy Coding! 🎉**
+**Happy Coding! **
